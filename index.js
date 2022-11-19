@@ -15,14 +15,14 @@
 
 
 
-const user = {
-    name: "Chollasit",
-    salary: 500000,
-    address: {
-        province: "Bangkok",
-        postcode: "10250"
-    }
-}
+// const user = {
+//     name: "Chollasit",
+//     salary: 500000,
+//     address: {
+//         province: "Bangkok",
+//         postcode: "10250"
+//     }
+// }
 // console.log(user.salary)
 // console.log(user.address.postcode)
 
@@ -41,5 +41,22 @@ const user = {
 
 
 
-const {name, salary} = user
-console.log(name)
+// const {name, salary} = user
+// console.log(name)
+
+
+
+const drinks = ["Coffee", "Coke", "GreenTea"]
+for(const d of drinks){
+    console.log(d)
+}
+
+const users = [
+    {name: 'A', age: 16},
+    {name: 'B', age: 18},
+    {name: 'C', age: 20}
+]
+
+for(const u of users){
+    console.log(u.name)
+}
